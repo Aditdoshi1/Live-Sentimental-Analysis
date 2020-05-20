@@ -1,0 +1,27 @@
+Install NLTK: -
+	Conda -	conda install -c anaconda nltk
+	Python IDLE - pip install nltk
+
+Install stopwords
+	import nltk
+	nltk.download('stopwords')
+
+Install INLTK: -
+//INLTK has a dependency on PyTorch 1.3.1
+To install Pytorch:- 
+	pip install torch==1.3.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+	pip install inltk
+
+Install Hindi Library For INLTK
+from inltk.inltk import setup
+setup('hi')
+
+//To install IndicNlp, You have to clone a library from github, and to do so, you have to install git
+Install Git:-
+	conda install -c anaconda git
+	
+Install indicnlp: -
+	pip install indic-nlp-library
+	git clone https://github.com/anoopkunchukuttan/indic_nlp_resources.git
+	git clone https://github.com/anoopkunchukuttan/indic_nlp_library.git
+
