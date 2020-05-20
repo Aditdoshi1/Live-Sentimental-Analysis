@@ -4,3 +4,5 @@ The text to be entered by the user should be in hindi.
 For the First time, the user has to press the 'Execute Button' and then the program will keep analysing the sentence after every letter entered by the user.
 Note:- While Copy-Pasting a hindi sentence into the Input Field, the user has to press a key(Expect for ctrl, shift) to make the program run, becuase(ctrl + V) is not considered as a valid input.
 Requirement List is provided, Before executing the program make sure you have everything installed, to ensure no error occurs.
+All the commands to install the required libraries in included in Requirements.txt, make sure to run all the commands.
+I recommended running files with indicnlp and inltk it on jupyter notebook, as anaconda prompt doesnt support hindi language.
